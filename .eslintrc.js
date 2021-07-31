@@ -4,7 +4,7 @@ module.exports = {
     commonjs: true,
     es2021: true,
   },
-  extends: ["plugin:react/recommended", "airbnb", "next", "next/core-web-vitals"],
+  extends: ["plugin:react/recommended", "airbnb"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
@@ -35,7 +35,11 @@ module.exports = {
     "react/jsx-curly-newline": "off",
     "react/react-in-jsx-scope": 0,
 
-    "next/no-html-link-for-pages": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/aria-role": "off",
 
     "@typescript-eslint/no-non-null-assertion": 0,
 
