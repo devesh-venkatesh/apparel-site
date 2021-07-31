@@ -42,6 +42,7 @@ module.exports = {
     "jsx-a11y/aria-role": "off",
 
     "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/no-explicit-any": 1,
 
     "import/extensions": 0,
     "comma-dangle": 0,
