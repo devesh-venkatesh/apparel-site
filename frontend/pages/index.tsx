@@ -5,5 +5,5 @@ export default function Home() {
         <p>Hello World from the client!</p>
       </main>
     </div>
-  );
+  )
 }

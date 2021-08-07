@@ -18,6 +18,7 @@ module.exports = {
     quotes: "off",
     camelcase: "warn",
     radix: "warn",
+    semi: ["error", "never"],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
 
@@ -68,4 +69,4 @@ module.exports = {
     "no-trailing-spaces": "off",
     "linebreak-style": 0,
   },
-};
+}
