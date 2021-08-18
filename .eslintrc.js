@@ -68,5 +68,6 @@ module.exports = {
     "arrow-body-style": "off",
     "no-trailing-spaces": "off",
     "linebreak-style": 0,
+    "no-unused-vars": ["error", { args: "none" }],
   },
 }
